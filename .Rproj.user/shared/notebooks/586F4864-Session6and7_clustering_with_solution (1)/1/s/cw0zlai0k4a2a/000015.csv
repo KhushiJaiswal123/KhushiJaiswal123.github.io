@@ -1,0 +1,1 @@
+"0","s5<-fviz_silhouette(model_km5)+ ggtitle(paste(""k = 5"", ""avg sw="",format(round(model_km5$silinfo$avg.width,3))))"

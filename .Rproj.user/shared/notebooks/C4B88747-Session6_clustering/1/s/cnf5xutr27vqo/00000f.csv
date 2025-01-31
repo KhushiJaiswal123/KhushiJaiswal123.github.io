@@ -1,0 +1,20 @@
+"0","library(ggpubr)"
+"0","a<-ggplot(whisky_tasting_notes_withClusters, aes(x = Medicinal, y = Sweetness, color =  as.factor(cluster))) +"
+"0","  geom_jitter()+labs(color = ""Cluster"")"
+"0","# Note that geom_jitter adds a small noise to each observation so that we can see overlapping points"
+"0",""
+"0","b<-ggplot(whisky_tasting_notes_withClusters, aes(x = Medicinal, y = Sweetness, color = as.factor(cluster),size=Smoky)) +"
+"0","  geom_jitter()+labs(color = ""Cluster"")"
+"0",""
+"0","#Let's arrange these visualizations so that they fit in the html file nicely"
+"0","library(gridExtra)"
+"2","
+Attaching package: ‘gridExtra’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    combine
+
+"
+"0","grid.arrange(a, b, nrow = 2)"

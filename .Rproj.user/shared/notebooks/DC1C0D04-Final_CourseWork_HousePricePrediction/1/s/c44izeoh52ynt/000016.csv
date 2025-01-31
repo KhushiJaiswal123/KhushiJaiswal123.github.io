@@ -1,0 +1,6 @@
+"0",""
+"0","# Write the results to a CSV file"
+"0","write.csv(outOfSampleData, ""Jaiswal_Khushi.csv"", row.names = FALSE)"
+"0",""
+"0",""
+"0",""

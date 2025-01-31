@@ -1,0 +1,15 @@
+{
+  "hash": "8f9042a348eb5bc65d849bf759a47b33",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Power BI dashbaord - Surveys\"\ndescription: \"hi\"\nauthor: \"Khushi Jaiswal\"\ndate: \"2024-11-16\"\ncategories: [Data Analysis & Visualisation]\nimage: \"image.jpg\"\nabout:\n  template: trestles\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\n# Stop and Search Data\n\nProject Description: This project analyzes stop and search data to identify trends and correlations.\n\n## Key Insights\n\n- Insight 1\n- Insight 2\n- This is another insight\n\n## Technologies Used\n\n- Python\n- Pandas\n- Matplotlib",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

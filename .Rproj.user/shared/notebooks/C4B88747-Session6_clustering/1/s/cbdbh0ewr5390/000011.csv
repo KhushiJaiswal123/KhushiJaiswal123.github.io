@@ -1,0 +1,6 @@
+"0",""
+"0",""
+"0",""
+"0",""
+"0","ggplot(whisky_tasting_notes, aes(x = Sweetness)) + "
+"0","  geom_histogram(binwidth=1)"

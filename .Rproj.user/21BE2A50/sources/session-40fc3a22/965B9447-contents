@@ -1,0 +1,29 @@
+---
+title: "PowerBI for Analysis"
+description: "Some basic powerBI dashbaords"
+author: "Khushi Jaiswal"
+date: "2024-08-27"
+categories: [Data Analysis, Visualisation]
+image: "image.jpg"
+order: 9
+---
+
+# Survey Insights: Visualizing Student Feedback with Power BI
+
+These Power BI dashboards were developed during my role as Student Association Tech & Operations Officer at London Business School. While the dashboards are relatively simple, they effectively summarize insights from student survey responses to measure satisfaction and gather feedback on well-being and events. They served as a foundation for data-driven decision-making, helping to enhance the student experience and refine event strategies. This project highlights my ability to clean, analyze, and visualize data, even in straightforward formats, to deliver actionable insights.
+
+::: columns
+
+::: {.column width="45%"}
+![Analysing Student Check-In Survey Data](extras/studentCheckInDashBoard.jpeg){width="100%"}
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+![Analysing Post Event Data](extras/postEventFeedbackDashboard.jpeg){width="100%"}
+:::
+
+
+:::

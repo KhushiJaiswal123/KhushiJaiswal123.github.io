@@ -1,0 +1,24 @@
+"0",""
+"0","#Load the library pROC to plot ROC curves"
+"0","suppressMessages(library(pROC))"
+"0",""
+"0","# I use 'predict' function to estimate probabilities. The result has two columns; first the probabilty of being class 0 and second # for being 1. So I take the second column "
+"0",""
+"0","knn_prediction_testing<-predict(fit_KNN, newdata = combined_test,type = ""prob"")[,2]"
+"0",""
+"0","# Let's find the ROC values using 'roc' function from pROC. "
+"0","ROC_knn <- roc(combined_test$watched_in_Feb, knn_prediction_testing)"
+"2","Setting levels: control = No, case = Yes
+"
+"2","Setting direction: controls < cases
+"
+"0","# Let's find AUC using the 'auc' function and round it for ease of notation. "
+"0","AUC_knn<-round(auc(ROC_knn)*100, digits=2)"
+"0","# Finally let's plot the ROC curve using"
+"0","ggroc(ROC_knn) + theme_bw()+ggtitle(paste(""k-NN BBC-Data AUC="",AUC_knn,""%""))+geom_segment(aes(x = 1, xend = 0, y = 0, yend = 1), color=""grey"", linetype=""dashed"")"
+"2","Warning in geom_segment(aes(x = 1, xend = 0, y = 0, yend = 1), color = ""grey"",  :"
+"2","
+ "
+"2"," [38;5;255mAll aesthetics have length 1, but the data has 103 rows.
+[36mℹ[38;5;255m Please consider using `annotate()` or provide this layer with data containing a single row.[39m
+"

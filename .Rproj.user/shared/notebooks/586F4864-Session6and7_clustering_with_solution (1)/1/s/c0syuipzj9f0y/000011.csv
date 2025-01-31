@@ -1,0 +1,4 @@
+"0",""
+"0","#Here is a short way of producing the elbow chart using ""fviz_nbclust"" function. "
+"0","fviz_nbclust(whisky_tasting_notes,kmeans, method = ""wss"")+"
+"0","  labs(subtitle = ""Elbow method"")"

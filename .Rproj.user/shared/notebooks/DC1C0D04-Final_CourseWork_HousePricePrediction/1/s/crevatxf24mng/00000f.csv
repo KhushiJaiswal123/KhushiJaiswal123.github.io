@@ -1,0 +1,51 @@
+"0","predictions <- predict(model3_knn, newdata = test_data) # Generate predictions
+actuals <- test_data$price # Compare predictions with actual values
+
+# evaluation metrics
+library(Metrics)
+rmse_value <- rmse(actuals, predictions)
+mae_value <- mae(actuals, predictions)
+r2_value <- cor(actuals, predictions)^2
+cat(""RMSE:"", rmse_value, ""\n"")
+"
+"1","RMSE:"
+"1"," "
+"1","232622.8"
+"1"," "
+"1","
+"
+"0","cat(""MAE:"", mae_value, ""\n"")"
+"1","MAE:"
+"1"," "
+"1","120756.2"
+"1"," "
+"1","
+"
+"0","cat(""R-squared:"", r2_value, ""\n"")"
+"1","R-squared:"
+"1"," "
+"1","0.7880012"
+"1"," "
+"1","
+"
+"0","glimpse(data.frame("
+"0","  Model = ""KNN"","
+"0","  RMSE = rmse_value,"
+"0","  MAE = mae_value,"
+"0","  R_squared = r2_value"
+"0","))"
+"1","Rows: 1"
+"1",""
+"1","
+"
+"1","Columns: 4"
+"1",""
+"1","
+"
+"1","$ Model     [3m[38;5;246m<chr>[39m[23m ""KNN""
+$ RMSE      [3m[38;5;246m<dbl>[39m[23m 232622.8
+$ MAE       [3m[38;5;246m<dbl>[39m[23m 120756.2
+$ R_squared [3m[38;5;246m<dbl>[39m[23m 0.7880012"
+"1",""
+"1","
+"

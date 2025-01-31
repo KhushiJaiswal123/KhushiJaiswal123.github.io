@@ -1,0 +1,13 @@
+"0","# Line plot of average income vs population, colored by property type"
+"0","ggplot(train_data, aes(x = population, y = price, color = property_type, group = property_type)) +"
+"0","  geom_line(stat = ""smooth"", method = ""lm"", se = FALSE) +  # Add smoothed lines for each property type"
+"0","  labs(title = ""Interaction between Average Income and Price by Property Type"","
+"0","       x = ""Population"", y = ""Price"") +"
+"0","  scale_y_log10() + "
+"0","  scale_x_log10() +"
+"0","  theme_minimal()"
+"1","[38;5;255m`geom_smooth()` using formula = 'y ~ x'[39m
+"
+"2","Warning:"
+"2"," [38;5;255mRemoved 57 rows containing non-finite outside the scale range (`stat_smooth()`).[39m
+"

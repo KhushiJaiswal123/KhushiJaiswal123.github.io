@@ -1,0 +1,3 @@
+"0","#bar chart of defaults"
+"0","def_vis1<-ggplot(data=userBasedData_clean, aes(x=watched_in_Feb)) +geom_bar(aes(y = (..count..)/sum(..count..))) + labs(x=""Watched in February"", y=""relative frequencies"") "
+"0","def_vis1"

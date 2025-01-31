@@ -1,0 +1,8 @@
+"0","# We can predict the testing values"
+"0",""
+"0","predictions <- predict(model1_lm,test_data)"
+"0",""
+"0","lr_results<-data.frame(  RMSE = RMSE(predictions, test_data$price), "
+"0","                            Rsquare = R2(predictions, test_data$price))"
+"0","                            "
+"0","lr_results                         "

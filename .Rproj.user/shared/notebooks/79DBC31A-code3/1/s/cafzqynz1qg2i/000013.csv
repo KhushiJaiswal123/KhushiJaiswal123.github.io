@@ -1,0 +1,5 @@
+"0",""
+"0","# 3. Trend of average house prices over time"
+"0","ggplot(training_data, aes(x = date, y = price)) +"
+"0","  geom_line(stat = ""summary"", fun = mean, color = ""red"") +"
+"0","  labs(title = ""Trend of Average House Prices Over Time"", x = ""Date"", y = ""Average Price"")"

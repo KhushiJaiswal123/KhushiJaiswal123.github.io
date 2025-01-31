@@ -1,0 +1,2 @@
+"0","#This visualization tool has many different options, I am only using the basic one below."
+"0","fviz_dend(res.hc, cex = 0.5, main=""k=3 ward.D"",lwd = 0.5)"

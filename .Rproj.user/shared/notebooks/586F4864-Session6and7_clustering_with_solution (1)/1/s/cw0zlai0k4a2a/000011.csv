@@ -1,0 +1,1 @@
+"0","s3<-fviz_silhouette(model_km3)+ ggtitle(paste(""k = 3"", ""avg sw="",format(round(model_km3$silinfo$avg.width,3))))"

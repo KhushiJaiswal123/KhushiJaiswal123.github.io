@@ -1,0 +1,6 @@
+"0",""
+"0","#Use the steps from above to visualize the separation of clusters with respect to first two components of priciple components"
+"0",""
+"0","p2 <- fviz_cluster(model_km3, geom = ""point"",  data = whisky_tasting_notes) + ggtitle(""k = 3"")"
+"0",""
+"0","p2"

@@ -1,0 +1,7 @@
+"0",""
+"0","## Compare it with Kmeans"
+"0","## Let me make he Kmeans graph look similar"
+"0","graphknn42<-ggplot(xa2k3, aes(x = variable, y = value))+  geom_line(aes(color = cluster,group = cluster), linetype = ""dashed"",size=1)+ geom_point(size=2,shape=4)+geom_hline(yintercept=0)+theme(text = element_text(size=10),"
+"0","        axis.text.x = element_text(angle=45, hjust=1),legend.title=element_text(size=5),legend.text = element_text(size=5))+ggtitle(""K-Means Centers k=3"")"
+"0","graphknn42"
+"0",""

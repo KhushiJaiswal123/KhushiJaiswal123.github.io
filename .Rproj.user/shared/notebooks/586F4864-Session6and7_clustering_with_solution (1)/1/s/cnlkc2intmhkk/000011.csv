@@ -1,0 +1,1 @@
+"0","fviz_cluster(k2_pam, data = whisky_tasting_notes) + ggtitle(""PAM k = 3"")+scale_colour_manual(values = c(""darkgreen"", ""orange"", ""red"",""blue""))"

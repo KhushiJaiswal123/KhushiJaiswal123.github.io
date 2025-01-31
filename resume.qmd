@@ -1,0 +1,15 @@
+
+<iframe
+  width="800"
+  height="800"
+  src="CV/CV_Jan_2025.pdf">
+</iframe>
+
+
+<!-- <div style="height: 100vh; width: 100%; overflow: hidden;"> -->
+<!--   <iframe src="CV/techCateredCV.pdf" style="width: 100%; height: 100%; border: none;"></iframe> -->
+<!-- </div> -->
+
+<!-- [Resume](CV/techCateredCV.pdf){target="_blank"} -->
+
+<!-- <iframe src="CV/techCateredCV.pdf" style="width:100%; height:800px; border:none;"></iframe> -->

@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  ## title 
+  title: "Khushi's Portfolio"
+  ## search tool
+  search: 
+    location: navbar
+    type: overlay
+  navbar:
+    left:
+      - href: projects.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume
+    ## Socials Links
+    right:
+      - contactMe.qmd
+      - icon: github
+        href: https://github.com/KhushiJaiswal123?tab=repositories
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/khushijaiswal-london/
+        target: _blank
+      - text: "<img src='images/tableauLogo.png' alt='Tableau' style='height: 24px; vertical-align: middle;'>"
+        href: https://public.tableau.com/app/profile/khushi.jaiswal6801/vizzes
+        target: _blank
+      ## extension - Kaggle & Leetcode ?
+
+## light/dark mode
+format:
+  html:
+    theme: 
+      light: lux # was cosmo with toggle option
+    css: styles.css
+    code-link: true
+
+
+
+

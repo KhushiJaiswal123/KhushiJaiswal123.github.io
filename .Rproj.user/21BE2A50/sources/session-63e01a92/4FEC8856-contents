@@ -1,0 +1,110 @@
+---
+title: "Skills gap between Higher Education and Industry"
+description: "scarping, analysing & classifying data to analyse trends"
+author: "Khushi Jaiswal"
+date: "2024-04-15"
+categories: [Machine Learning, Data Analysis, Web Scraping]
+image: "image.jpg"
+format: html
+output: html_document
+order: 2
+---
+
+
+# Project Description
+
+This project examines the alignment between skills required in AI job adverts and those taught in UK AI degree programs. It analyzes two datasets:
+
+
+1. <a href="extras/jobDataset.zip" target="_blank" style="color:#0077B5; text-decoration:none;" 
+   onmouseover="this.style.color='darkblue'" 
+   onmouseout="this.style.color='#0077B5';">
+   **Job Advertisements Dataset**
+</a> : Skills extracted from AI-related job adverts on LinkedIn.
+
+2. <a href="extras/uniDataset.zip" target="_blank" style="color:#0077B5; text-decoration:none;" 
+   onmouseover="this.style.color='darkblue'" 
+   onmouseout="this.style.color='#0077B5';">
+   **University Courses Dataset**
+</a> : Skills extracted from official UK university course pages.
+
+
+The goal is to identify skill gaps and trends to inform curriculum development for better alignment with industry needs.
+
+
+# Video Presentation
+<iframe 
+    width="100%"
+    height="350"
+    src="https://www.youtube.com/embed/gRWonWyNKdg" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+<p style="text-align: center; font-size: 16px; color: #555;">Full Project Explanation</p>
+
+<!-- <a href="extras/SourceCode.zip" target="_blank" style="color:'#0077B5'; text-decoration:none;"  -->
+<!--    onmouseover="this.style.color='darkblue'"  -->
+<!--    onmouseout="this.style.color='#0077B5';">**Full Source Code**</a>              -->
+<!-- <a href="extras/presentationSlides.zip" target="_blank" style="color:'#0077B5'; text-decoration:none;"  -->
+<!--    onmouseover="this.style.color='darkblue'"  -->
+<!--    onmouseout="this.style.color='#0077B5';">**Presentation Slides**</a> -->
+   
+<a href="extras/SourceCode.zip" target="_blank" style="color:#0077B5; text-decoration:none;" 
+   onmouseover="this.style.color='darkblue'" 
+   onmouseout="this.style.color='#0077B5';">
+   **Full Source Code**
+</a> 
+
+<a href="extras/presentationSlides.zip" target="_blank" style="color:#0077B5; text-decoration:none;" 
+   onmouseover="this.style.color='darkblue'" 
+   onmouseout="this.style.color='#0077B5';">
+   **Full Source Code**
+</a> 
+   
+
+# Technologies Used
+- <span style="font-weight: bold;">`Python`</span>: For data preprocessing, web scraping, and NLP pipelines.
+- <span style="font-weight: bold;">`pandas`</span> and <span style="font-weight: bold;">`NumPy`</span>: For data cleaning and transformation.
+- <span style="font-weight: bold;">`Scikit-learn`</span>: For training and evaluation (87% precision) of the <span style="font-weight: bold;">`Naïve Bayes`</span> predictive modeling.
+- <span style="font-weight: bold;">`Matplotlib`</span>: To create insightful data visualizations.
+- <span style="font-weight: bold;">`Clay`</span>: Third-party scraper for LinkedIn job advertisements (adheres to scraping limits).
+- <span style="font-weight: bold;">`n-grams`</span> and <span style="font-weight: bold;">`Regex`</span>: For extracting and cleaning multi-word skill phrases from datasets.
+- <span style="font-weight: bold;">`Naïve Bayes`</span>: Machine learning model for categorizing skills into 12 predefined categories.
+- <span style="font-weight: bold;">`VSCode`</span>: Integrated development environment (IDE) for writing, debugging, and managing code.
+
+
+
+# Project Report
+   
+<a href="https://journals.sagepub.com/doi/full/10.1177/09504222241280441" target="_blank" style="color:#0077B5; text-decoration:none;" 
+   onmouseover="this.style.color='darkblue'" 
+   onmouseout="this.style.color='#0077B5';">
+   **See Report publication on Sage Journals 2024**
+</a> 
+
+<iframe src="extras/FinalReport.pdf" width="100%" height="600"></iframe>
+
+# Report Summary
+
+## Data Collection
+- **Jobs**: Scraped 158 LinkedIn ads using Clay, adhering to legal limits.  
+- **Universities**: Manually collected AI course data from the top 30 UK universities.  
+
+## Processing & Analysis
+- Extracted skill phrases using n-grams and categorized them with a Naïve Bayes model into 12 skill areas.  
+- Compared skills across datasets to identify gaps, overlaps, and trends.
+
+## Key Findings
+- Both focus on **Programming**, **Software Development**, and **Machine Learning**.  
+- Job ads prioritize **Data Science**, **Business**, and **Soft Skills** like communication and analytical thinking.  
+- Universities emphasize technical expertise, with minor gaps in **general knowledge** and **analytical thinking**.  
+- Growing importance of **Ethics** recognized by both.
+
+## Conclusion
+Employers seek well-rounded candidates, blending technical and non-technical skills, emphasizing the need for academic curricula to adapt.  
+
+## Future Work
+- Expanding datasets, exploring alternative classifiers, and conducting qualitative research can enhance findings.
+
+

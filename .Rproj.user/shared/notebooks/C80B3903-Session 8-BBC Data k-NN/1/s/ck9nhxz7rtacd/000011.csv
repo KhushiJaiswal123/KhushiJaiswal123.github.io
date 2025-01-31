@@ -1,0 +1,18 @@
+"0","userBasedData_clean<- userBasedData_clean %>%"
+"0","  mutate("
+"0","    log_total_Time = log(total_Time), # log transform total time"
+"0","    log_number_of_shows = log(noShows)"
+"0","    ) %>%"
+"0","    select(-total_Time,-noShows)"
+"1","[1m[33mError[39m in `mutate()`:[22m
+[38;5;255m[36mℹ[38;5;255m In argument: `log_total_Time = log(total_Time)`.[39m
+[1mCaused by error:[22m
+[33m![39m object 'total_Time' not found
+Backtrace:
+[90m 1. [39m... %>% select(-total_Time, -noShows)
+[90m 4. [39m[1m[94mdplyr:::mutate.data.frame([39m[22m., log_total_Time = log(total_Time), log_number_of_shows = log(noShows)[1m[94m)[39m[22m
+[90m 5. [39mdplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+[90m 7. [39mdplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+[90m 8. [39mmask$eval_all_mutate(quo)
+[90m 9. [39m[1mdplyr[22m (local) eval()
+"

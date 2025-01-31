@@ -1,0 +1,303 @@
+[
+  {
+    "objectID": "projectPosts/tableauLondonHousePrices/TableauHousePrices.html",
+    "href": "projectPosts/tableauLondonHousePrices/TableauHousePrices.html",
+    "title": "LDN Housing Market Analysis",
+    "section": "",
+    "text": "My final published workbook can be found on here on Tableau Public.\n\n\n\n\n\n\nSome Graphs Obtained (more details below)"
+  },
+  {
+    "objectID": "projectPosts/tableauLondonHousePrices/TableauHousePrices.html#visualisation",
+    "href": "projectPosts/tableauLondonHousePrices/TableauHousePrices.html#visualisation",
+    "title": "LDN Housing Market Analysis",
+    "section": "",
+    "text": "My final published workbook can be found on here on Tableau Public.\n\n\n\n\n\n\nSome Graphs Obtained (more details below)"
+  },
+  {
+    "objectID": "projectPosts/tableauLondonHousePrices/TableauHousePrices.html#data-sources",
+    "href": "projectPosts/tableauLondonHousePrices/TableauHousePrices.html#data-sources",
+    "title": "LDN Housing Market Analysis",
+    "section": "Data Sources",
+    "text": "Data Sources\n\nPrice Paid Data (1998–Present): This dataset, from HM Land Registry, records property sales in England and Wales submitted for registration. For this analysis, I use only London-specific data.\nEnergy Performance Certificate (EPC) Data (2008–2020): This dataset provides details like property size, number of bedrooms, and energy ratings, offering additional insights into the properties."
+  },
+  {
+    "objectID": "projectPosts/tableauLondonHousePrices/TableauHousePrices.html#data-integration-cleaning",
+    "href": "projectPosts/tableauLondonHousePrices/TableauHousePrices.html#data-integration-cleaning",
+    "title": "LDN Housing Market Analysis",
+    "section": "Data integration & Cleaning",
+    "text": "Data integration & Cleaning\nI then filtered the Price Paid Data for London and merged with EPC data to enhance property details. I further enriched the dataset with postcode-level information for geographic analysis. Finally, I cleaned the combined dataset to ensure consistency, remove duplicates, and handle missing values, preparing it for detailed analysis. The cleaned dataset that will be used in the rest of this project can be found here."
+  },
+  {
+    "objectID": "projectPosts/tableauLondonHousePrices/TableauHousePrices.html#key-insights",
+    "href": "projectPosts/tableauLondonHousePrices/TableauHousePrices.html#key-insights",
+    "title": "LDN Housing Market Analysis",
+    "section": "Key Insights",
+    "text": "Key Insights\nLondon’s housing market experienced significant changes after 2015, influenced by Brexit and the COVID-19 pandemic. While Brexit initially slowed price growth, the pandemic spurred a surge in demand, driving prices higher due to changing lifestyles and low-interest rates.\n\nRegional Price Variations: Zone 1 remains the most expensive area, with SE1 identified as the priciest district, driven by its central location and desirability.\nProperty Trends: Post-2015 saw an increase in flats being built in Zone 1 to address rising demand and limited space, indicating a shift toward high-density housing.\nSustainability and Accessibility: Newly constructed flats in SE1 emphasize energy efficiency, with more properties achieving ‘B’ energy ratings over ‘C.’ These developments also focus on convenience, being located closer to train stations."
+  },
+  {
+    "objectID": "projectPosts/powerBI/powerBI.html",
+    "href": "projectPosts/powerBI/powerBI.html",
+    "title": "PowerBI for Analysis",
+    "section": "",
+    "text": "Survey Insights: Visualizing Student Feedback with Power BI\nThese Power BI dashboards were developed during my role as Student Association Tech & Operations Officer at London Business School. While the dashboards are relatively simple, they effectively summarize insights from student survey responses to measure satisfaction and gather feedback on well-being and events. They served as a foundation for data-driven decision-making, helping to enhance the student experience and refine event strategies. This project highlights my ability to clean, analyze, and visualize data, even in straightforward formats, to deliver actionable insights.\n\n\n\n\n\nAnalysing Student Check-In Survey Data\n\n\n\n\n\n\n\n\nAnalysing Post Event Data"
+  },
+  {
+    "objectID": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html",
+    "href": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html",
+    "title": "London Housing Market Prediction",
+    "section": "",
+    "text": "This project focuses on predicting house prices and identifying the most profitable real estate investments using advanced data science techniques. By analyzing historical housing data, training machine learning models, and evaluating their performance, the project offers actionable insights into selecting properties with the highest investment potential.\n\n\n\n\n\n\nComparing model performance\n\n\n\n\nDatasets used: Train Data & Test Data\n\n\n\n\nTrained and evaluated multiple machine learning models (Linear Regression, Decision Trees, K-Nearest Neighbors, Random Forests, and Stacking Ensemble) to predict house prices.\nAchieved the best performance using a Stacking Ensemble model with an RMSE of 178,359 and an R² of 0.86.\nIdentified the top 200 houses with the highest investment potential based on the comparison between predicted prices and asking prices.\nApplied k-fold cross-validation (k=10) to enhance model robustness and minimize overfitting.\n\n\n\n\n\nR: For data cleaning, model training, and visualization.\nLibraries: tidyverse, caret, randomForest.\nVisualization: Heatmaps, line plots, and variable importance graphs.\n\n\n\n\n\nStandardized input variables across models to address discrepancies in predictions.\nOptimized computational efficiency by hardcoding best-performing hyperparameters after tuning.\n\n\n\n\n\nIncorporate external data such as macroeconomic indicators (e.g., interest rates) to improve predictions.\nExperiment with newer machine learning techniques, such as XGBoost or neural networks, for enhanced performance.\n\n\n\n\n\n\n\n\n\nStill checking if source code can be made publicly available - updating soon"
+  },
+  {
+    "objectID": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#project-description",
+    "href": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#project-description",
+    "title": "London Housing Market Prediction",
+    "section": "",
+    "text": "This project focuses on predicting house prices and identifying the most profitable real estate investments using advanced data science techniques. By analyzing historical housing data, training machine learning models, and evaluating their performance, the project offers actionable insights into selecting properties with the highest investment potential.\n\n\n\n\n\n\nComparing model performance\n\n\n\n\nDatasets used: Train Data & Test Data"
+  },
+  {
+    "objectID": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#key-insights",
+    "href": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#key-insights",
+    "title": "London Housing Market Prediction",
+    "section": "",
+    "text": "Trained and evaluated multiple machine learning models (Linear Regression, Decision Trees, K-Nearest Neighbors, Random Forests, and Stacking Ensemble) to predict house prices.\nAchieved the best performance using a Stacking Ensemble model with an RMSE of 178,359 and an R² of 0.86.\nIdentified the top 200 houses with the highest investment potential based on the comparison between predicted prices and asking prices.\nApplied k-fold cross-validation (k=10) to enhance model robustness and minimize overfitting."
+  },
+  {
+    "objectID": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#technologies-used",
+    "href": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#technologies-used",
+    "title": "London Housing Market Prediction",
+    "section": "",
+    "text": "R: For data cleaning, model training, and visualization.\nLibraries: tidyverse, caret, randomForest.\nVisualization: Heatmaps, line plots, and variable importance graphs."
+  },
+  {
+    "objectID": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#challenges-overcome",
+    "href": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#challenges-overcome",
+    "title": "London Housing Market Prediction",
+    "section": "",
+    "text": "Standardized input variables across models to address discrepancies in predictions.\nOptimized computational efficiency by hardcoding best-performing hyperparameters after tuning."
+  },
+  {
+    "objectID": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#future-work",
+    "href": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#future-work",
+    "title": "London Housing Market Prediction",
+    "section": "",
+    "text": "Incorporate external data such as macroeconomic indicators (e.g., interest rates) to improve predictions.\nExperiment with newer machine learning techniques, such as XGBoost or neural networks, for enhanced performance."
+  },
+  {
+    "objectID": "projectPosts/BytesHealthCalorieTrackerApp/BytesHealthCalorieTrackerApp.html",
+    "href": "projectPosts/BytesHealthCalorieTrackerApp/BytesHealthCalorieTrackerApp.html",
+    "title": "BytesLog, A Health App",
+    "section": "",
+    "text": "BytesLog is a cross-platform mobile application I developed during my bachelor’s project. The app empowers users to log their daily food intake, set personalized dietary goals, and monitor their progress. To enhance user engagement, the app features gamified achievements and badges, along with visually rich insights into calorie and macronutrient intake. (code is in a private github repo)\n\n\n\nFrontend: React Native (cross-platform mobile app development)\nBackend: Django Framework\nDatabase & API: External food API (Edamam) and Firebase for real-time data storage\nTesting: Jest for unit testing and automated testing using GitHub Actions workflows\nUI Framework: Bootstrap\n\n\n\n\n\n\n\nInstall “Expo Go” &gt;&gt; scan &gt;&gt; use app\nios\n\n\n\nandroid"
+  },
+  {
+    "objectID": "projectPosts/BytesHealthCalorieTrackerApp/BytesHealthCalorieTrackerApp.html#project-overview",
+    "href": "projectPosts/BytesHealthCalorieTrackerApp/BytesHealthCalorieTrackerApp.html#project-overview",
+    "title": "BytesLog, A Health App",
+    "section": "",
+    "text": "BytesLog is a cross-platform mobile application I developed during my bachelor’s project. The app empowers users to log their daily food intake, set personalized dietary goals, and monitor their progress. To enhance user engagement, the app features gamified achievements and badges, along with visually rich insights into calorie and macronutrient intake. (code is in a private github repo)\n\n\n\nFrontend: React Native (cross-platform mobile app development)\nBackend: Django Framework\nDatabase & API: External food API (Edamam) and Firebase for real-time data storage\nTesting: Jest for unit testing and automated testing using GitHub Actions workflows\nUI Framework: Bootstrap\n\n\n\n\n\n\n\nInstall “Expo Go” &gt;&gt; scan &gt;&gt; use app\nios\n\n\n\nandroid"
+  },
+  {
+    "objectID": "projectPosts/BytesHealthCalorieTrackerApp/BytesHealthCalorieTrackerApp.html#all-features-functionality",
+    "href": "projectPosts/BytesHealthCalorieTrackerApp/BytesHealthCalorieTrackerApp.html#all-features-functionality",
+    "title": "BytesLog, A Health App",
+    "section": "All Features & Functionality",
+    "text": "All Features & Functionality\n\n\n\nFood Logging: Users can easily log the food they consume throughout the day, including raw ingredients, store-bought convenience foods, and custom recipes.\nDietary Goals: The app allows users to set personalized dietary goals and track their progress.\nFood Database Integration: The app integrates with an external API for an extensive food database, but also supports user-generated additions, allowing them to log their own foods and recipes.\nAchievements & Badges: To increase user engagement and retention, the app includes a list of achievements that users can strive to accomplish, which unlock badges that are displayed on their profile.\nAnalytics & Insights: The app provides users with detailed analytics on their logged foods, such as calorie and macronutrient breakdowns over different time periods (daily, weekly, monthly). It also tracks progress toward dietary goals, offering visual insights through charts and graphics.\n\n\n\n\n\nFull App"
+  },
+  {
+    "objectID": "projectPosts/BytesHealthCalorieTrackerApp/BytesHealthCalorieTrackerApp.html#testing-developers-report",
+    "href": "projectPosts/BytesHealthCalorieTrackerApp/BytesHealthCalorieTrackerApp.html#testing-developers-report",
+    "title": "BytesLog, A Health App",
+    "section": "Testing & Developer’s Report",
+    "text": "Testing & Developer’s Report\nNote: Code for this project is not publicly available :("
+  },
+  {
+    "objectID": "projectPosts/AnimalSimulation(Java)/AnimalSimulation(Java).html",
+    "href": "projectPosts/AnimalSimulation(Java)/AnimalSimulation(Java).html",
+    "title": "Predator-Prey Simulation (Java)",
+    "section": "",
+    "text": "The Java project models an ocean ecosystem with five animal species - whales, sharks, tuna, octopuses, and crabs - and one plant species: seaweed. The simulation explores predator-prey relationships, the influence of environmental factors like weather and time, and the impact of competition among predators.\n\n\n\n\n\n\nThe food-chain hierarchy positions whales as the top predators, while crabs are herbivores feeding on seaweed. Environmental factors such as weather, temperature, and time, along with biological factors like disease, influence the behavior and survival of species."
+  },
+  {
+    "objectID": "projectPosts/AnimalSimulation(Java)/AnimalSimulation(Java).html#species",
+    "href": "projectPosts/AnimalSimulation(Java)/AnimalSimulation(Java).html#species",
+    "title": "Predator-Prey Simulation (Java)",
+    "section": "Species",
+    "text": "Species\n\n\n\nAdded species with unique traits (e.g., age, breeding probability).\n\nUsed Animal superclass for shared methods (e.g., breed(), setDead()).\n\nOverrode abstract methods for species-specific behavior.\n\n\n\n\n\n\nAll objects in the Bluej environment\n\n\n\nDay/Night & Weather\n\nTime class alternates day/night every 12 steps.\n\nWeather class randomizes conditions, affecting growth and interactions.\n\n\nSeaweed\n\nAdded Actor and Plant classes for hierarchy.\n\nSeaweed grows differently by day/night; crabs eat it or starve.\n\n\nGUI\n\nGrid shows species in unique colors.\n\nDisplays day/night, day count, and weather.\n\n\nProject Report"
+  },
+  {
+    "objectID": "projectPosts/AnimalSimulation(Java)/AnimalSimulation(Java).html#daynight-weather",
+    "href": "projectPosts/AnimalSimulation(Java)/AnimalSimulation(Java).html#daynight-weather",
+    "title": "Predator-Prey Simulation (Java)",
+    "section": "Day/Night & Weather",
+    "text": "Day/Night & Weather\n\nTime class alternates day/night every 12 steps.\n\nWeather class randomizes conditions, affecting growth and interactions."
+  },
+  {
+    "objectID": "projectPosts/AnimalSimulation(Java)/AnimalSimulation(Java).html#seaweed",
+    "href": "projectPosts/AnimalSimulation(Java)/AnimalSimulation(Java).html#seaweed",
+    "title": "Predator-Prey Simulation (Java)",
+    "section": "Seaweed",
+    "text": "Seaweed\n\nAdded Actor and Plant classes for hierarchy.\n\nSeaweed grows differently by day/night; crabs eat it or starve."
+  },
+  {
+    "objectID": "projectPosts/AnimalSimulation(Java)/AnimalSimulation(Java).html#gui",
+    "href": "projectPosts/AnimalSimulation(Java)/AnimalSimulation(Java).html#gui",
+    "title": "Predator-Prey Simulation (Java)",
+    "section": "GUI",
+    "text": "GUI\n\nGrid shows species in unique colors.\n\nDisplays day/night, day count, and weather."
+  },
+  {
+    "objectID": "contactMe.html",
+    "href": "contactMe.html",
+    "title": "Contact Me",
+    "section": "",
+    "text": "Based in London, UK.\nOpen to full-time opportunities around June 2025\nAlso available for part-time roles in the meantime"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Khushi Jaiswal",
+    "section": "",
+    "text": "Hi, I am Khushi\n\nThis portfolio showcases my journey, skills, and projects across all my areas of interest including,  - Machine Learning,  - Statistics, - Software Development and  - Data Visualization to turn insights into action.\n\n\nI hope you enjoy it :)\n\n\n\nEducation\n\nLondon Business School | Master’s in Analytics and Management  (Aug 2024 - Jun 2025) King’s College London | Bachelor’s in Computer Science  (Sep 2021 - Jul 2024)\n\n\n\nInternships\n\nCFO Ventures | Financial Data Analyst | 2024  Tata Consultancy Services | Analyst Intern | 2022  Tata Steel | Analyst Intern | 2019"
+  },
+  {
+    "objectID": "projectPosts/asosETL/asosETL.html",
+    "href": "projectPosts/asosETL/asosETL.html",
+    "title": "Outfit Recommendation System",
+    "section": "",
+    "text": "Description\nThe Outfit Of The Day (OOTD) Recommendation System generates personalized outfit suggestions based on real-time weather data for London. The system uses weather parameters like temperature, precipitation, and wind speed to select appropriate tops, bottoms, shoes, outerwear, and accessories (e.g., sunglasses or raincoats), ensuring the outfit matches the current weather conditions. The final output is rendered as an image of all recommended items for that day and emailed to the user.\n\n\n\nTechnologies Used\n\nR for ETL, weather data integration, and API development\nPlumber for API development\nWeatherstack API for weather data\nSQL Database for data storage\nBash Scripts for automation\nWeb Scraping Tools for data acquisition\n\n\n\n\n\n\n\n\n\nSomething Similar to this is emailed to subscribers\n\n\n\nProject code can not be provided - it is in a private github repo :/"
+  },
+  {
+    "objectID": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html",
+    "href": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html",
+    "title": "Skills gap between Higher Education and Industry",
+    "section": "",
+    "text": "This project examines the alignment between skills required in AI job adverts and those taught in UK AI degree programs. It analyzes two datasets:\n\n Job Advertisements Dataset  : Skills extracted from AI-related job adverts on LinkedIn.\n University Courses Dataset  : Skills extracted from official UK university course pages.\n\nThe goal is to identify skill gaps and trends to inform curriculum development for better alignment with industry needs."
+  },
+  {
+    "objectID": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html#data-collection",
+    "href": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html#data-collection",
+    "title": "Skills gap between Higher Education and Industry",
+    "section": "Data Collection",
+    "text": "Data Collection\n\nJobs: Scraped 158 LinkedIn ads using Clay, adhering to legal limits.\n\nUniversities: Manually collected AI course data from the top 30 UK universities."
+  },
+  {
+    "objectID": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html#processing-analysis",
+    "href": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html#processing-analysis",
+    "title": "Skills gap between Higher Education and Industry",
+    "section": "Processing & Analysis",
+    "text": "Processing & Analysis\n\nExtracted skill phrases using n-grams and categorized them with a Naïve Bayes model into 12 skill areas.\n\nCompared skills across datasets to identify gaps, overlaps, and trends."
+  },
+  {
+    "objectID": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html#key-findings",
+    "href": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html#key-findings",
+    "title": "Skills gap between Higher Education and Industry",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nBoth focus on Programming, Software Development, and Machine Learning.\n\nJob ads prioritize Data Science, Business, and Soft Skills like communication and analytical thinking.\n\nUniversities emphasize technical expertise, with minor gaps in general knowledge and analytical thinking.\n\nGrowing importance of Ethics recognized by both."
+  },
+  {
+    "objectID": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html#conclusion",
+    "href": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html#conclusion",
+    "title": "Skills gap between Higher Education and Industry",
+    "section": "Conclusion",
+    "text": "Conclusion\nEmployers seek well-rounded candidates, blending technical and non-technical skills, emphasizing the need for academic curricula to adapt."
+  },
+  {
+    "objectID": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html#future-work",
+    "href": "projectPosts/KingsDissertation-SkillLevels/kingsDissertation.html#future-work",
+    "title": "Skills gap between Higher Education and Industry",
+    "section": "Future Work",
+    "text": "Future Work\n\nExpanding datasets, exploring alternative classifiers, and conducting qualitative research can enhance findings."
+  },
+  {
+    "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html",
+    "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html",
+    "title": "Pacman Q-Learning Agent",
+    "section": "",
+    "text": "This Reinforcement Learning project implements a Q-learning agent to play Pacman in the Berkeley AI Pacman environment. The agent uses the Bellman equation to estimate the expected future reward of actions in each state, applying Q-learning to balance exploration and exploitation. Over time, our agent, pacman, learns to maximize the score by avoiding ghosts, collecting food, and making optimal decisions."
+  },
+  {
+    "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#states",
+    "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#states",
+    "title": "Pacman Q-Learning Agent",
+    "section": "States:",
+    "text": "States:\n\nThe state s ∈ S is represented by the game state, which includes:\n\nPacman’s position (current state)\nGhost positions (other agent’s states)\nNumber of food pellets (rewards)\nScore\nLegal actions available where S is the set of all possible states"
+  },
+  {
+    "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#actions",
+    "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#actions",
+    "title": "Pacman Q-Learning Agent",
+    "section": "Actions:",
+    "text": "Actions:\n\nThe action a ∈ A(s) is a direction in which Pacman can move. Where A(s) are the legal actions available at state s.\n\nA(s) = {North,South,East,West}"
+  },
+  {
+    "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#transition-function",
+    "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#transition-function",
+    "title": "Pacman Q-Learning Agent",
+    "section": "Transition Function:",
+    "text": "Transition Function:\n\nThe transition function T(s, a, s’) describes the probability of transitioning from state s to state s’ when action a is taken:\ns’ = new state after executing action a from state s"
+  },
+  {
+    "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#reward-function",
+    "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#reward-function",
+    "title": "Pacman Q-Learning Agent",
+    "section": "Reward Function:",
+    "text": "Reward Function:\n\n\n\nThe reward function R(s, a, s') gives the reward for transitioning from state s to state s' after action a:\n\nR(s, a, s’) = food reward - ghost penalty"
+  },
+  {
+    "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#policy",
+    "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#policy",
+    "title": "Pacman Q-Learning Agent",
+    "section": "Policy:",
+    "text": "Policy:\n\nThe agent follows an epsilon-greedy policy π, where:\n\nε = the probability the agent selects a random action (exploration).\n1 - ε = probability the agent selects the action with the highest Q-value (exploitation): a* = arg maxa ∈ A(s) Q(s, a)"
+  },
+  {
+    "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#q-value-update-bellman-equation",
+    "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#q-value-update-bellman-equation",
+    "title": "Pacman Q-Learning Agent",
+    "section": "Q-Value Update (Bellman Equation):",
+    "text": "Q-Value Update (Bellman Equation):\n\nThe agent uses the Q-learning update rule to update the Q-values for state-action pairs: Q(s, a) ← Q(s, a) + α (R(s, a, s’) + γ maxa’ ∈ A(s’) Q(s’, a’) - Q(s, a))\n\n\n\nWhere:\n\nQ(s, a) is the Q-value for state s and action a\nα is the learning rate\nγ is the discount factor\nR(s, a, s) is the immediate reward for the state transition\nmaxa’ ∈ A(s’) Q(s’, a’) is the maximum future reward achievable from state s'"
+  },
+  {
+    "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#exploration-function",
+    "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#exploration-function",
+    "title": "Pacman Q-Learning Agent",
+    "section": "Exploration Function:",
+    "text": "Exploration Function:\n\nThe exploration strategy is based on a count function, which explores actions with lower visitation counts:"
+  },
+  {
+    "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#action-selection",
+    "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#action-selection",
+    "title": "Pacman Q-Learning Agent",
+    "section": "Action Selection:",
+    "text": "Action Selection:\n\nThe action a taken at state s is selected based on epsilon-greedy exploration:"
+  },
+  {
+    "objectID": "projectPosts/Stop&SearchDataVis/Stop&SearchDataVis.html#tools-used",
+    "href": "projectPosts/Stop&SearchDataVis/Stop&SearchDataVis.html#tools-used",
+    "title": "Stop-and-Search Trends",
+    "section": "Tools Used",
+    "text": "Tools Used\n\ndplyr, lubridate, janitor: Performed data wrangling to clean and transform raw datasets.\nggplot2: Created bar charts, heatmaps, and line graphs to visualize trends effectively.\nlubridate: Conducted time-based analysis to extract insights by date, weekday, and hour."
+  },
+  {
+    "objectID": "projectPosts/Stop&SearchDataVis/Stop&SearchDataVis.html#key-insights",
+    "href": "projectPosts/Stop&SearchDataVis/Stop&SearchDataVis.html#key-insights",
+    "title": "Stop-and-Search Trends",
+    "section": "Key Insights",
+    "text": "Key Insights\n\nAge Group Analysis: Individuals aged 18–24 were stopped and searched the most.\nOutcome Trends: Across all age groups, individuals are usually not investigated further after they have been stopped - however the 18-24 age range is most likely to have further actions taken e.g. arrest, penalty notice.\nTemporal Patterns: Searches peaked during late evenings and at the end of the work week, highlighting a time-based pattern in enforcement activity."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Pacman Q-Learning Agent\n\n\n\nMachine Learning\n\n\n\nA Q-learning agent for Pacman using the Bellman equation\n\n\n\nKhushi Jaiswal\n\n\nJan 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkills gap between Higher Education and Industry\n\n\n\nMachine Learning\n\n\nData Analysis\n\n\nWeb Scraping\n\n\n\nscarping, analysing & classifying data to analyse trends\n\n\n\nKhushi Jaiswal\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBytesLog, A Health App\n\n\n\nSoftware Dev\n\n\n\nAn app for logging meals, tracking goals, and visualizing nutrition data through analytics\n\n\n\nKhushi Jaiswal\n\n\nJun 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredator-Prey Simulation (Java)\n\n\n\nSoftware Dev\n\n\n\nEcosystem simulation via OOP concepts of inheritance and abstraction.\n\n\n\nKhushi Jaiswal\n\n\nFeb 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLondon Housing Market Prediction\n\n\n\nMachine Learning\n\n\n\nEnsemble stacking LinReg, Tree, KNN & Random forest tuned models for prediction\n\n\n\nKhushi Jaiswal\n\n\nDec 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOutfit Recommendation System\n\n\n\nETL\n\n\nWeb Scraping\n\n\n\nGenerates outfit suggestions based on London’s weather data\n\n\n\nKhushi Jaiswal\n\n\nJul 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStop-and-Search Trends\n\n\n\nData Analysis\n\n\nVisualisation\n\n\n\nAnalyzed patterns by age, outcomes, and time using R\n\n\n\nKhushi Jaiswal\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLDN Housing Market Analysis\n\n\n\nData Analysis\n\n\nVisualisation\n\n\n\nVisualising London Housing Price Trends in Tableau\n\n\n\nKhushi Jaiswal\n\n\nOct 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPowerBI for Analysis\n\n\n\nData Analysis\n\n\nVisualisation\n\n\n\nSome basic powerBI dashbaords\n\n\n\nKhushi Jaiswal\n\n\nAug 27, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#project-code",
+    "href": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#project-code",
+    "title": "London Housing Market Prediction",
+    "section": "",
+    "text": "Still checking if source code can be made publicly available - updating soon"
+  }
+]

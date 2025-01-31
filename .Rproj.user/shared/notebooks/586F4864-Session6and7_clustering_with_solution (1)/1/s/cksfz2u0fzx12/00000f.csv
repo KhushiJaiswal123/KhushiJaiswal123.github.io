@@ -1,0 +1,6 @@
+"0",""
+"0","##Data is in csv format. So I use read.csv function"
+"0","whisky <- read.csv(file=""whisky.csv"",header=TRUE)"
+"0",""
+"0","##let's look at the top 5 rows"
+"0","head(whisky,5)"

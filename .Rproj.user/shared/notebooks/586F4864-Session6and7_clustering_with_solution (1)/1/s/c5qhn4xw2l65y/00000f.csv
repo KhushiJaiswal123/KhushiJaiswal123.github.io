@@ -1,0 +1,5 @@
+"0","fviz_cluster(res.hc, whisky_tasting_notes,"
+"0","             palette = ""Set2"", ggtheme = theme_minimal()) + ggtitle(""H-Clust k = 3"")+scale_colour_manual(values = c(""darkgreen"", ""orange"", ""red"",""blue"")) "
+"1","[38;5;255mScale for [32mcolour[38;5;255m is already present.
+Adding another scale for [32mcolour[38;5;255m, which will replace the existing scale.[39m
+"

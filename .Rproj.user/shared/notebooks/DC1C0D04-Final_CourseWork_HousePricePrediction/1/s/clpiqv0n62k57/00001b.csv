@@ -1,0 +1,7 @@
+"0",""
+"0","# Scatter plot of floor_area vs property_var"
+"0","ggplot(train_data, aes(x = total_floor_area, y = price, color = property_type)) +"
+"0","  geom_point() +  # Add points"
+"0","  labs(title = ""Correlation between Floor Area and Property Variable"","
+"0","       x = ""Floor Area"", y = ""Property price"") +"
+"0","  theme_minimal()"

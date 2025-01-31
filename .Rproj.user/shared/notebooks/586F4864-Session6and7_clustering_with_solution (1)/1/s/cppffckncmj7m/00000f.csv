@@ -1,0 +1,4 @@
+"0",""
+"0","#dist function find the distances between points"
+"0","res.dist <- dist(whisky_tasting_notes, method = ""euclidean"")"
+"0"," "

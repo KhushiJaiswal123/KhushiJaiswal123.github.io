@@ -1,0 +1,15 @@
+"0",""
+"0",""
+"0",""
+"0","#Fit a tree model with parameters (cp = 0.0001, minbucket = 70)"
+"0","BBC_treeModel_oos <- rpart(formula=watched_in_Feb  ~ ., data = combined_train,method = ""class"",  control = rpart.control(cp = 0.0001, minbucket = 70))"
+"0",""
+"0","#Predict the probabilities using the tree model in testing data"
+"0","watched_tree <- predict(BBC_treeModel_oos,combined_test, type = ""prob"")[,2]"
+"0",""
+"0","#Find ROC for tree model"
+"0","ROC_tree <- roc(combined_test$watched_in_Feb, watched_tree)"
+"2","Setting levels: control = No, case = Yes
+"
+"2","Setting direction: controls < cases
+"

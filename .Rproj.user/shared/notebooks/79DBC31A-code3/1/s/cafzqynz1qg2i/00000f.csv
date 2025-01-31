@@ -1,0 +1,5 @@
+"0","### Data Visualization"
+"0","# 1. Distribution of house prices in the training data"
+"0","ggplot(training_data, aes(x = price)) +"
+"0","  geom_histogram(binwidth = 50000, fill = ""blue"", color = ""white"") +"
+"0","  labs(title = ""Distribution of House Prices"", x = ""Price"", y = ""Frequency"")"

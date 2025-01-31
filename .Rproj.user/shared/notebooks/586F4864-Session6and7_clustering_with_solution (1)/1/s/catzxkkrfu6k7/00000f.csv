@@ -1,0 +1,17 @@
+"0","#I display the locations of the distrilliries on a map. I will use ggmap and Stamen Maps. "
+"0","#We will cover the details of this and other methods for visualizing geographical data in the data visualization course. "
+"0","#But if you want to display a different location use ""https://www.openstreetmap.org"" and `export' to find the coordinates of a location."
+"0",""
+"0","library(ggmap)"
+"1","[32mℹ[39m Google's Terms of Service: [34m[3m]8;;https://mapsplatform.google.com<https://mapsplatform.google.com>]8;;[23m[39m
+  Stadia Maps' Terms of Service: [34m[3m]8;;https://stadiamaps.com/terms-of-service/<https://stadiamaps.com/terms-of-service/>]8;;[23m[39m
+  OpenStreetMap's Tile Usage Policy: [34m[3m]8;;https://operations.osmfoundation.org/policies/tiles/<https://operations.osmfoundation.org/policies/tiles/>]8;;[23m[39m
+[32mℹ[39m Please cite [34mggmap[39m if you use it! Use `citation(""ggmap"")` for details.
+"
+"0","#these are the coordinates I got from openstreetmap.org for Scotland"
+"0","scotlandOSM <- c(left = -9.146, bottom = 54.426, right = -0.841, top = 59.317) "
+"0","#let's get the map for Scotland"
+"0","mapScotland<-ggmap(get_stamenmap(scotlandOSM, zoom = 8)) "
+"2","Error in get_stamenmap(scotlandOSM, zoom = 8) : 
+  Stamen map tiles are now hosted by Stadia Maps, use `get_stadiamap()`.
+"

@@ -1,0 +1,72 @@
+/* css styles */
+/* Apply hover effect to Quarto's grid items */
+.quarto-grid-item.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    background-color: #ffffff; /* Default card color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Hover effect - scale up, add shadow, and change background color */
+.quarto-grid-item.card:hover {
+    transform: scale(1.05); /* Slight zoom-in effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly larger shadow */
+    background-color: rgba(0, 0, 0, 0.05); /* Light transparent background */
+}
+
+/* Optional: Style for the card's image */
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+/* Add a subtle zoom effect to the image on hover */
+.quarto-grid-item.card:hover .card-img-top {
+    transform: scale(1.05); /* Slight zoom-in effect on the image */
+}
+
+/* Additional styling for the text and attribution */
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.tableau-icon::before {
+  content: "\f080"; /* Font Awesome icon resembling Tableau (Bar Chart) */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900; /* For solid icons */
+  margin-right: 0.5em;
+}
+
+.navbar img {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+
+/* sticky footer */
+/* Ensure the footer stays at the bottom of the screen */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Make the body take up the full viewport height */
+}
+main {
+  flex: 1; /* This makes sure the content takes up all available space */
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Ensure the footer spans the entire width */
+  /*background-color: #2780e3; */ /* Optional: Match your footer background */ 
+  color: white; /* Optional: Adjust the text color */
+  padding: 1px;
+  text-align: center;
+  z-index: 100; /* Ensure it stays above other content */
+}
+
+

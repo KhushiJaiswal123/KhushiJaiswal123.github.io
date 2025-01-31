@@ -1,0 +1,8 @@
+"0",""
+"0",""
+"0","# I will use the ggcorr plots in GGally package. Something you have used with Nicos."
+"0","library(""GGally"")"
+"0","whisky_tasting_notes %>% "
+"0","  select(Sweetness:Floral) %>% #keep Y variable last"
+"0","  ggcorr(method = c(""pairwise"", ""pearson""), label_round=2, label = TRUE, angle = -90, max_size = 4,size = 3)"
+"0",""

@@ -1,0 +1,6 @@
+"0",""
+"0","# 2. Average house price by property type"
+"0","ggplot(training_data, aes(x = property_type, y = price, fill = property_type)) +"
+"0","  geom_boxplot() +"
+"0","  labs(title = ""Average House Price by Property Type"", x = ""Property Type"", y = ""Price"") +"
+"0","  theme(axis.text.x = element_text(angle = 45, hjust = 1))"

@@ -1,0 +1,3 @@
+"0",""
+"0",""
+"0","fviz_nbclust(whisky_tasting_notes, kmeans, method = ""silhouette"",k.max = 15)+labs(subtitle = ""Silhouette method"")"

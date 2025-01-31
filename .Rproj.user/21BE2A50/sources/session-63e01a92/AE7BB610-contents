@@ -1,0 +1,122 @@
+---
+title: "Pacman Q-Learning Agent"
+description: "A Q-learning agent for Pacman using the Bellman equation"
+author: "Khushi Jaiswal"
+date: "2024-11-16"
+categories: [Software Development]
+image: "image.jpg"
+---
+
+::: columns
+
+::: {.column width="50%"}
+This `Reinforcement Learning` project implements a `Q-learning agent` to play Pacman in the Berkeley AI Pacman environment. The agent uses the `Bellman equation` to estimate the expected future reward of actions in each state, applying `Q-learning` to balance `exploration` and `exploitation`. Over time, our agent, pacman, learns to maximize the score by avoiding ghosts, collecting food, and making optimal decisions.
+:::
+
+::: {.column width="5%"}
+:::
+
+:::{.column width="45%"}
+{{< video https://www.youtube.com/embed/L7XtGabFTEA width="100%" height="250" >}}
+<!-- https://youtu.be/L7XtGabFTEA -->
+:::
+
+:::
+
+# Markov Decision Process (MDP) for Pacman Q-Learning Agent
+The Markov Decision Process (MDP) for the Pacman Q-learning agent is defined as follows:
+
+## States:
+- The state s ∈ S is represented by the game state, which includes:
+  - Pacman's position (current state)
+  - Ghost positions (other agent's states)
+  - Number of food pellets (rewards)
+  - Score
+  - Legal actions available
+where S is the set of all possible states
+
+
+## Actions:
+- The action a ∈ A(s) is a direction in which Pacman can move. Where A(s) are the legal actions available at state s.
+  - A(s) = {North,South,East,West}
+
+
+
+## Transition Function:
+ - The transition function T(s, a, s') describes the probability of transitioning from state s to state s' when action a is taken:
+  - s' = new state after executing action a from state s
+
+
+
+<!-- newSegment -->
+
+## Reward Function:
+::: columns
+::: {.column width="55%"}
+- The reward function `R(s, a, s')` gives the reward for transitioning from state `s` to state `s'` after action `a`:
+     - R(s, a, s') = food reward - ghost penalty
+     
+:::
+::: {.column width="45%"}
+![](extras/rewardCalcCode.jpeg){width="80%"}
+:::
+
+:::
+<!-- segmentEnd -->
+
+
+
+
+
+## Policy:
+- The agent follows an epsilon-greedy policy `π`, where:
+  - `ε` = the probability the agent selects a random action (exploration).
+  - `1 - ε` = probability the agent selects the action with the highest Q-value (exploitation):
+    a* = arg max<sub>a ∈ A(s)</sub> Q(s, a)
+
+
+
+
+<!-- newSegment -->
+## Q-Value Update (Bellman Equation):
+
+
+- The agent uses the Q-learning update rule to update the Q-values for state-action pairs:
+  Q(s, a) ← Q(s, a) + α (R(s, a, s') + γ max<sub>a' ∈ A(s')</sub> Q(s', a') - Q(s, a))
+
+::: columns
+
+::: {.column width="50%"}
+
+  Where:
+  
+  - Q(s, a) is the Q-value for state `s` and action `a`
+  - `α` is the learning rate
+  - `γ` is the discount factor
+  - `R(s, a, s)` is the immediate reward for the state transition
+  - max<sub>a' ∈ A(s')</sub> Q(s', a') is the maximum future reward achievable from state `s'`
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="45%"}
+![](extras/qValueUpdateCode.jpeg){width="80%"}
+:::
+
+:::
+<!-- segmentEnds -->
+
+
+
+
+## Exploration Function:
+- The exploration strategy is based on a count function, which explores actions with lower visitation counts:
+    ![](extras/explorationFunction.jpeg){width="70%"}
+
+## Action Selection:
+- The action **a** taken at state **s** is selected based on epsilon-greedy exploration:
+    ![](extras/actionSelection.jpeg){width="60%"}
+  
+

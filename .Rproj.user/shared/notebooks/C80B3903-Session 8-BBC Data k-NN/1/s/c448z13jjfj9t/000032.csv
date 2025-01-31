@@ -1,0 +1,5 @@
+"0",""
+"0",""
+"0","def_vis4<-ggplot(data=userBasedData_clean, aes(y=watched_in_Feb,x=weekend))  + labs(y=""Watched in February"", x=""Weekend %"")  +geom_jitter(width=0, height=0.05, alpha=0.7) #We use jitter to offset the display of defaults/non-defaults to make the data easier to interpert. We have also changed the amount to 1000$ to reduce the number of zeros on the horizontal axis."
+"0",""
+"0","def_vis4"

@@ -1,0 +1,102 @@
+---
+title: "BytesLog, A Health App"
+description: "An app for logging meals, tracking goals, and visualizing nutrition data through analytics"
+author: "Khushi Jaiswal"
+date: "2024-11-30"
+categories: [Software Dev]
+image: "image.jpg"
+
+---
+
+
+## Project Overview
+
+::: columns
+
+::: {.column width="60%"}
+BytesLog is a cross-platform mobile application I developed during my bachelor's project. The app empowers users to log their daily food intake, set personalized dietary goals, and monitor their progress. To enhance user engagement, the app features gamified achievements and badges, along with visually rich insights into calorie and macronutrient intake. (code is in a private github repo)
+
+### Technologies Used
+ - Frontend: `React Native` (cross-platform mobile app development)
+ - Backend: `Django Framework`
+ - Database & API: `External food API` (Edamam) and `Firebase` for real-time data storage
+ - Testing: `Jest` for unit testing and automated testing using `GitHub Actions workflows`
+ - UI Framework: `Bootstrap`
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+
+::: rows
+::: {.row height="40%"}
+Install "Expo Go" >> scan >> use app
+
+ios
+
+![](extras/ios.jpeg){width="150"}
+:::
+::: {.row height="40%"}
+android
+
+![](extras/anroid.jpeg){width="150"}
+:::
+:::
+
+
+:::
+
+
+:::
+
+
+
+
+
+::: columns
+::: {.column width="25%"}
+### Logging On
+{{< video https://www.youtube.com/embed/XAVHsPY4vJw width="100%" height="400" >}}
+:::
+
+::: {.column width="25%"}
+### Reward System
+{{< video https://www.youtube.com/embed/IMDLzWf4rPQ width="100%" height="400" >}}
+:::
+
+::: {.column width="25%"}
+### Food Entries
+{{< video https://www.youtube.com/embed/zEK7vKsxvcg width="100%" height="400" >}}
+:::
+
+::: {.column width="25%"}
+### Full Stats
+{{< video https://www.youtube.com/embed/cPdq6kSsPQY width="100%" height="400" >}}
+:::
+:::
+
+
+## All Features & Functionality
+
+::: columns
+
+::: {.column width="65%"}
+ - Food Logging: Users can easily log the food they consume throughout the day, including raw ingredients, store-bought convenience foods, and custom recipes.
+ - Dietary Goals: The app allows users to set personalized dietary goals and track their progress.
+ - Food Database Integration: The app integrates with an external API for an extensive food database, but also supports user-generated additions, allowing them to log their own foods and recipes.
+ - Achievements & Badges: To increase user engagement and retention, the app includes a list of achievements that users can strive to accomplish, which unlock badges that are displayed on their profile.
+ - Analytics & Insights: The app provides users with detailed analytics on their logged foods, such as calorie and macronutrient breakdowns over different time periods (daily, weekly, monthly). It also tracks progress toward dietary goals, offering visual insights through charts and graphics.
+ 
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="25%"}
+### Full App 
+{{< video https://www.youtube.com/embed/YSQBFOvYDFQ width="100%" height="400" >}}
+:::
+
+:::

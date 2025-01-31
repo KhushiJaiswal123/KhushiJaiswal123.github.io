@@ -1,0 +1,45 @@
+---
+title: "Outfit Recommendation System"
+description: "Generates outfit suggestions based on London’s weather data"
+author: "Khushi Jaiswal"
+date: "2024-07-16"
+categories: [ETL, Web Scraping]
+image: "image.jpg"
+order: 6
+---
+
+::: columns
+
+::: {.column width=50%}
+# Description
+The Outfit Of The Day (OOTD) Recommendation System generates personalized outfit suggestions based on real-time weather data for London. The system uses weather parameters like temperature, precipitation, and wind speed to select appropriate tops, bottoms, shoes, outerwear, and accessories (e.g., sunglasses or raincoats), ensuring the outfit matches the current weather conditions. The final output is rendered as an image of all recommended items for that day and emailed to the user.
+:::
+
+::: {.column width=50%}
+# Technologies Used 
+- `R` for ETL, weather data integration, and API development
+- `Plumber` for API development
+- `Weatherstack API` for weather data
+- `SQL Database` for data storage
+- `Bash Scripts` for automation
+- `Web Scraping Tools` for data acquisition
+:::
+:::
+
+
+
+
+
+::: columns
+
+::: {.column width=70%}
+![Something Similar to this is emailed to subscribers](extras/ootd_output.jpg){width="100%"}
+:::
+
+::: {.column width=30%}
+Project code can not be provided - it is in a private github repo :/
+:::
+
+:::
+
+

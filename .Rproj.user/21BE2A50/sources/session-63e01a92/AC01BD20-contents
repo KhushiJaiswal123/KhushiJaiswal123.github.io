@@ -1,0 +1,69 @@
+---
+title: "Predator-Prey Simulation (Java)"
+description: "Ecosystem simulation via OOP concepts of inheritance and abstraction."
+author: "Khushi Jaiswal"
+date: "2023-05-16"
+categories: [Software Dev]
+image: "image.jpg"
+---
+
+
+# Project Overview
+::: columns
+
+::: {.column width="55%"}
+The Java project models an ocean ecosystem with five animal species - whales, sharks, tuna, octopuses, and crabs - and one plant species: seaweed. The simulation explores predator-prey relationships, the influence of environmental factors like weather and time, and the impact of competition among predators.
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+{{< video https://www.youtube.com/embed/qIYTNovo8-I width="100%" height="180" >}}
+:::
+
+:::
+The food-chain hierarchy positions whales as the top predators, while crabs are herbivores feeding on seaweed. Environmental factors such as weather, temperature, and time, along with biological factors like disease, influence the behavior and survival of species.
+
+
+
+
+# Tools and Technologies
+- `Java`: For object-oriented implementation of species, weather, and time.  
+- `Inheritance and Abstraction`: Simplified code through shared methods and fields across classes.  
+- `GUI Development`: Enhanced visualization of the ecosystem using Java Swing.
+
+
+
+# Implementation Overview
+
+## Species  
+::: columns
+::: {.column width="50%"}
+- Added species with unique traits (e.g., age, breeding probability).  
+- Used `Animal` superclass for shared methods (e.g., `breed()`, `setDead()`).  
+- Overrode abstract methods for species-specific behavior.  
+:::
+
+::: {.column width="50%"}
+![All objects in the Bluej environment](extras/bluejObjects.jpeg){width="100%"}
+:::
+
+
+## Day/Night & Weather  
+- `Time` class alternates day/night every 12 steps.  
+- `Weather` class randomizes conditions, affecting growth and interactions.  
+
+## Seaweed  
+- Added `Actor` and `Plant` classes for hierarchy.  
+- Seaweed grows differently by day/night; crabs eat it or starve.  
+
+## GUI  
+- Grid shows species in unique colors.  
+- Displays day/night, day count, and weather. 
+
+
+# Project Report
+<iframe src="extras/report.pdf" width="100%" height="600"></iframe>
+
+

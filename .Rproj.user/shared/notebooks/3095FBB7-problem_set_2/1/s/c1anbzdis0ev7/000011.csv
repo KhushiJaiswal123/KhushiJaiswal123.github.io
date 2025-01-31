@@ -1,0 +1,7 @@
+"0",""
+"0","energy_long |> "
+"0","  filter(country == ""Germany"") |> "
+"0","  mutate(source = fct_reorder(source, value, max)) |> "
+"0","  ggplot()+"
+"0","  aes(x= year, y = value, fill = source)+"
+"0","  geom_area(colour=""grey90"", alpha = 0.5, position = ""fill"")"

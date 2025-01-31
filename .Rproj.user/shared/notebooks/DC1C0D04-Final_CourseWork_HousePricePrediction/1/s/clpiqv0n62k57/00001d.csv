@@ -1,0 +1,8 @@
+"0","# Line plot of floor_area vs property_var for two property types"
+"0","ggplot(train_data, aes(x = total_floor_area, y = price, color = property_type, group = property_type)) +"
+"0","  geom_line(stat = ""smooth"", method = ""lm"", se = FALSE) +  # Add smoothed lines for each property_type"
+"0","  labs(title = ""Price Trends by Floor Area and Property Type"","
+"0","       x = ""Total Floor Area"", y = ""Property Price"") +"
+"0","  theme_minimal()"
+"1","[38;5;255m`geom_smooth()` using formula = 'y ~ x'[39m
+"

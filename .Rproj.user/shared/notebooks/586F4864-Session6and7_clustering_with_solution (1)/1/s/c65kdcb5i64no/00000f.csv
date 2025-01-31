@@ -1,0 +1,2 @@
+"0",""
+"0","fviz_cluster(model_kmeans_2clusters, whisky_tasting_notes, palette = ""Set2"", ggtheme = theme_minimal())"

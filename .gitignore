@@ -1,0 +1,18 @@
+
+# Ignore temporary and system files
+.DS_Store
+*.log
+node_modules/
+__pycache__/
+*.tmp
+
+# Ignore site build files if not needed
+_site/
+
+# Ignore large files (handled by LFS)
+*.zip
+*.pptx
+*.mp4
+
+
+/.quarto/

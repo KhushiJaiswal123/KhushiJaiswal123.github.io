@@ -1,0 +1,11 @@
+"0","# Scatter plot of average income vs London zone, colored by price"
+"0","ggplot(train_data, aes(x = population, y = price, color=property_type)) +"
+"0","  geom_point(alpha=0.5) +  # Add points"
+"0","  labs(title = ""Interaction between Average Income and London Zone"","
+"0","       x = ""Average Income"", y = ""London Zone"") +"
+"0","  scale_y_log10() + "
+"0","  scale_x_log10() +"
+"0","  theme_minimal()"
+"2","Warning:"
+"2"," [38;5;255mRemoved 57 rows containing missing values or values outside the scale range (`geom_point()`).[39m
+"

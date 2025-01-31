@@ -1,0 +1,6 @@
+"0",""
+"0","# Mercator (ew)"
+"0","map_mercator <- base_map +"
+"0","  coord_sf(crs = ""+proj=merc"")"
+"0",""
+"0","map_mercator"

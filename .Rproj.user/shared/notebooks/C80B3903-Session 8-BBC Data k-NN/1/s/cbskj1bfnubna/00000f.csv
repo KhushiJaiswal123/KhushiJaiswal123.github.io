@@ -1,0 +1,8 @@
+"0","library(rsample) #you have"
+"0","set.seed(1212)"
+"0",""
+"0","train_test_split <- initial_split(userBasedData_clean, prop = 0.75) #training set contains 75% of the data"
+"0","# Create the training and testing datasets"
+"0","combined_train <- training(train_test_split)"
+"0","combined_test <- testing(train_test_split)"
+"0",""

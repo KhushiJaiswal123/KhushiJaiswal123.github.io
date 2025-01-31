@@ -1,0 +1,7 @@
+"0","#let's do the initial split"
+"0","library(rsample)"
+"0","train_test_split <- initial_split(london_house_prices_2019_training, prop = 0.75) #training set contains 75% of the data"
+"0","# Create the training dataset"
+"0","train_data <- training(train_test_split)"
+"0","test_data <- testing(train_test_split)"
+"0",""

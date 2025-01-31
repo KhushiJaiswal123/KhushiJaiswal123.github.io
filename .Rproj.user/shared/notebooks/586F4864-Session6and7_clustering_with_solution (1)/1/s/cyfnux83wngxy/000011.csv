@@ -1,0 +1,3 @@
+"0",""
+"0","#Let's look at the silhouette analysis"
+"0","fviz_silhouette(k2_pam)+ ggtitle(paste(""k = 3"", ""avg sw="",format(round(k2_pam$silinfo$avg.width,3))))"

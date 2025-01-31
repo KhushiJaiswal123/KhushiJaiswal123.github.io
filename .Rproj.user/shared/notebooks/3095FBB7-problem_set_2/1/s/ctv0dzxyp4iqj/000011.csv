@@ -1,0 +1,4 @@
+"0",""
+"0","# Interactive CO2 vs kWh/capita plot with plotly"
+"0",""
+"0","ggplotly(co2_kwh_plot)"

@@ -1,0 +1,8 @@
+"0",""
+"0",""
+"0","# Robinson projection"
+"0","map_robinson <- base_map +"
+"0","  coord_sf(crs = ""+proj=robin"") "
+"0",""
+"0","map_robinson"
+"0",""

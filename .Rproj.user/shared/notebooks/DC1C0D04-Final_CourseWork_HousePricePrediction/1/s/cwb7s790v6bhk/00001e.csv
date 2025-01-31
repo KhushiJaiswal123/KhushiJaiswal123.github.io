@@ -1,0 +1,17 @@
+"0","cat(""STACKED MODEL"")
+"
+"1","STACKED MODEL"
+"0","glimpse(resultsReal)"
+"1","Rows: 1"
+"1",""
+"1","
+"
+"1","Columns: 2"
+"1",""
+"1","
+"
+"1","$ RMSE    [3m[38;5;246m<dbl>[39m[23m 178359
+$ Rsquare [3m[38;5;246m<dbl>[39m[23m 0.869829"
+"1",""
+"1","
+"

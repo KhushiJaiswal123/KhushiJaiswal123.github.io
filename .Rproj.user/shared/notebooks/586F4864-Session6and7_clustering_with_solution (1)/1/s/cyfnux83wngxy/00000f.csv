@@ -1,0 +1,4 @@
+"0",""
+"0","#Let's look at the elbow chart"
+"0","fviz_nbclust(whisky_tasting_notes,FUNcluster= cluster::pam, method = ""wss"")+"
+"0","  labs(subtitle = ""Elbow method"")"

@@ -1,0 +1,45 @@
+---
+title: "Khushi Jaiswal"
+image: images/HeadShot.JPG
+about:
+  template: trestles
+  image-width: 18em
+  image-shape: round
+links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/khushijaiswal-london/
+    - icon: github
+      text: Github
+      href: https://github.com/KhushiJaiswal123/
+    - icon: envelope
+      text: Contact me
+      href: mailto:14khushijais@gmail.com
+
+
+
+---
+##### Hi, I am Khushi
+
+<p style="font-size: 14px;">This portfolio showcases my journey, skills, and projects across all my areas of interest including, <br><br>  - Machine Learning, <br> - Statistics,<br> - Software Development and <br>  - Data Visualization to turn insights into action. </p>
+
+
+<p style="font-size: 14px;">
+I hope you enjoy it :)
+</p> 
+
+##### Education
+<p style="font-size: 12px;">
+*London Business School* | Master's in Analytics and Management <br> (Aug 2024 - Jun 2025)<br><br>
+*King's College London* | Bachelor's in Computer Science <br> (Sep 2021 - Jul 2024)
+</p>
+
+##### Internships
+<p style="font-size: 12px;">
+*CFO Ventures* |  Financial Data Analyst | 2024 <br>
+*Tata Consultancy Services* | Analyst Intern | 2022 <br>
+*Tata Steel* | Analyst Intern | 2019
+</p>
+
+
+

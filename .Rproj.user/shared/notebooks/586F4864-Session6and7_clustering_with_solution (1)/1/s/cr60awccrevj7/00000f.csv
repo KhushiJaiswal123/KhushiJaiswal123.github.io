@@ -1,0 +1,6 @@
+"0",""
+"0",""
+"0",""
+"0","mapScotland+ geom_point(aes(x =lat, y = long,color= as.factor(model_km3$cluster)),data=whisky, alpha=0.8, size=2)+labs(color = ""Cluster"")+scale_color_hue(l=25)"
+"2","Error: object 'mapScotland' not found
+"
