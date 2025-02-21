@@ -84,6 +84,13 @@
     "text": "Incorporate external data such as macroeconomic indicators (e.g., interest rates) to improve predictions.\nExperiment with newer machine learning techniques, such as XGBoost or neural networks, for enhanced performance."
   },
   {
+    "objectID": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#project-code",
+    "href": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#project-code",
+    "title": "London Housing Market Prediction",
+    "section": "",
+    "text": "Still checking if source code can be made publicly available - updating soon"
+  },
+  {
     "objectID": "projectPosts/BytesHealthCalorieTrackerApp/BytesHealthCalorieTrackerApp.html",
     "href": "projectPosts/BytesHealthCalorieTrackerApp/BytesHealthCalorieTrackerApp.html",
     "title": "BytesLog, A Health App",
@@ -212,63 +219,63 @@
   {
     "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html",
     "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html",
-    "title": "Pacman Q-Learning Agent",
+    "title": "Pacman Q-Learning Agentt",
     "section": "",
     "text": "This Reinforcement Learning project implements a Q-learning agent to play Pacman in the Berkeley AI Pacman environment. The agent uses the Bellman equation to estimate the expected future reward of actions in each state, applying Q-learning to balance exploration and exploitation. Over time, our agent, pacman, learns to maximize the score by avoiding ghosts, collecting food, and making optimal decisions."
   },
   {
     "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#states",
     "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#states",
-    "title": "Pacman Q-Learning Agent",
+    "title": "Pacman Q-Learning Agentt",
     "section": "States:",
     "text": "States:\n\nThe state s ∈ S is represented by the game state, which includes:\n\nPacman’s position (current state)\nGhost positions (other agent’s states)\nNumber of food pellets (rewards)\nScore\nLegal actions available where S is the set of all possible states"
   },
   {
     "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#actions",
     "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#actions",
-    "title": "Pacman Q-Learning Agent",
+    "title": "Pacman Q-Learning Agentt",
     "section": "Actions:",
     "text": "Actions:\n\nThe action a ∈ A(s) is a direction in which Pacman can move. Where A(s) are the legal actions available at state s.\n\nA(s) = {North,South,East,West}"
   },
   {
     "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#transition-function",
     "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#transition-function",
-    "title": "Pacman Q-Learning Agent",
+    "title": "Pacman Q-Learning Agentt",
     "section": "Transition Function:",
     "text": "Transition Function:\n\nThe transition function T(s, a, s’) describes the probability of transitioning from state s to state s’ when action a is taken:\ns’ = new state after executing action a from state s"
   },
   {
     "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#reward-function",
     "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#reward-function",
-    "title": "Pacman Q-Learning Agent",
+    "title": "Pacman Q-Learning Agentt",
     "section": "Reward Function:",
     "text": "Reward Function:\n\n\n\nThe reward function R(s, a, s') gives the reward for transitioning from state s to state s' after action a:\n\nR(s, a, s’) = food reward - ghost penalty"
   },
   {
     "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#policy",
     "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#policy",
-    "title": "Pacman Q-Learning Agent",
+    "title": "Pacman Q-Learning Agentt",
     "section": "Policy:",
     "text": "Policy:\n\nThe agent follows an epsilon-greedy policy π, where:\n\nε = the probability the agent selects a random action (exploration).\n1 - ε = probability the agent selects the action with the highest Q-value (exploitation): a* = arg maxa ∈ A(s) Q(s, a)"
   },
   {
     "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#q-value-update-bellman-equation",
     "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#q-value-update-bellman-equation",
-    "title": "Pacman Q-Learning Agent",
+    "title": "Pacman Q-Learning Agentt",
     "section": "Q-Value Update (Bellman Equation):",
     "text": "Q-Value Update (Bellman Equation):\n\nThe agent uses the Q-learning update rule to update the Q-values for state-action pairs: Q(s, a) ← Q(s, a) + α (R(s, a, s’) + γ maxa’ ∈ A(s’) Q(s’, a’) - Q(s, a))\n\n\n\nWhere:\n\nQ(s, a) is the Q-value for state s and action a\nα is the learning rate\nγ is the discount factor\nR(s, a, s) is the immediate reward for the state transition\nmaxa’ ∈ A(s’) Q(s’, a’) is the maximum future reward achievable from state s'"
   },
   {
     "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#exploration-function",
     "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#exploration-function",
-    "title": "Pacman Q-Learning Agent",
+    "title": "Pacman Q-Learning Agentt",
     "section": "Exploration Function:",
     "text": "Exploration Function:\n\nThe exploration strategy is based on a count function, which explores actions with lower visitation counts:"
   },
   {
     "objectID": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#action-selection",
     "href": "projectPosts/PacmanGames(Python)/PacmanGames(Python).html#action-selection",
-    "title": "Pacman Q-Learning Agent",
+    "title": "Pacman Q-Learning Agentt",
     "section": "Action Selection:",
     "text": "Action Selection:\n\nThe action a taken at state s is selected based on epsilon-greedy exploration:"
   },
@@ -291,13 +298,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Pacman Q-Learning Agent\n\n\n\nMachine Learning\n\n\n\nA Q-learning agent for Pacman using the Bellman equation\n\n\n\nKhushi Jaiswal\n\n\nJan 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkills gap between Higher Education and Industry\n\n\n\nMachine Learning\n\n\nData Analysis\n\n\nWeb Scraping\n\n\n\nscarping, analysing & classifying data to analyse trends\n\n\n\nKhushi Jaiswal\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBytesLog, A Health App\n\n\n\nSoftware Dev\n\n\n\nAn app for logging meals, tracking goals, and visualizing nutrition data through analytics\n\n\n\nKhushi Jaiswal\n\n\nJun 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredator-Prey Simulation (Java)\n\n\n\nSoftware Dev\n\n\n\nEcosystem simulation via OOP concepts of inheritance and abstraction.\n\n\n\nKhushi Jaiswal\n\n\nFeb 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLondon Housing Market Prediction\n\n\n\nMachine Learning\n\n\n\nEnsemble stacking LinReg, Tree, KNN & Random forest tuned models for prediction\n\n\n\nKhushi Jaiswal\n\n\nDec 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOutfit Recommendation System\n\n\n\nETL\n\n\nWeb Scraping\n\n\n\nGenerates outfit suggestions based on London’s weather data\n\n\n\nKhushi Jaiswal\n\n\nJul 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStop-and-Search Trends\n\n\n\nData Analysis\n\n\nVisualisation\n\n\n\nAnalyzed patterns by age, outcomes, and time using R\n\n\n\nKhushi Jaiswal\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLDN Housing Market Analysis\n\n\n\nData Analysis\n\n\nVisualisation\n\n\n\nVisualising London Housing Price Trends in Tableau\n\n\n\nKhushi Jaiswal\n\n\nOct 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPowerBI for Analysis\n\n\n\nData Analysis\n\n\nVisualisation\n\n\n\nSome basic powerBI dashbaords\n\n\n\nKhushi Jaiswal\n\n\nAug 27, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#project-code",
-    "href": "projectPosts/LondonHousingMarketPrediction/LondonHousingMarketPrediction.html#project-code",
-    "title": "London Housing Market Prediction",
-    "section": "",
-    "text": "Still checking if source code can be made publicly available - updating soon"
+    "text": "Pacman Q-Learning Agentt\n\n\n\nMachine Learning\n\n\n\nA Q-learning agent for Pacman using the Bellman equation\n\n\n\nKhushi Jaiswal\n\n\nJan 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSkills gap between Higher Education and Industry\n\n\n\nMachine Learning\n\n\nData Analysis\n\n\nWeb Scraping\n\n\n\nscarping, analysing & classifying data to analyse trends\n\n\n\nKhushi Jaiswal\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBytesLog, A Health App\n\n\n\nSoftware Dev\n\n\n\nAn app for logging meals, tracking goals, and visualizing nutrition data through analytics\n\n\n\nKhushi Jaiswal\n\n\nJun 28, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredator-Prey Simulation (Java)\n\n\n\nSoftware Dev\n\n\n\nEcosystem simulation via OOP concepts of inheritance and abstraction.\n\n\n\nKhushi Jaiswal\n\n\nFeb 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLondon Housing Market Prediction\n\n\n\nMachine Learning\n\n\n\nEnsemble stacking LinReg, Tree, KNN & Random forest tuned models for prediction\n\n\n\nKhushi Jaiswal\n\n\nDec 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOutfit Recommendation System\n\n\n\nETL\n\n\nWeb Scraping\n\n\n\nGenerates outfit suggestions based on London’s weather data\n\n\n\nKhushi Jaiswal\n\n\nJul 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStop-and-Search Trends\n\n\n\nData Analysis\n\n\nVisualisation\n\n\n\nAnalyzed patterns by age, outcomes, and time using R\n\n\n\nKhushi Jaiswal\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLDN Housing Market Analysis\n\n\n\nData Analysis\n\n\nVisualisation\n\n\n\nVisualising London Housing Price Trends in Tableau\n\n\n\nKhushi Jaiswal\n\n\nOct 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPowerBI for Analysis\n\n\n\nData Analysis\n\n\nVisualisation\n\n\n\nSome basic powerBI dashbaords\n\n\n\nKhushi Jaiswal\n\n\nAug 27, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
