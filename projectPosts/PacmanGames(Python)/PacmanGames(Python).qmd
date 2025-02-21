@@ -1,5 +1,5 @@
 ---
-title: "Pacman Q-Learning Agentt"
+title: "Pacman Q-Learning Agent"
 description: "A Q-learning agent for Pacman using the Bellman equation"
 author: "Khushi Jaiswal"
 date: "2024-01-25"
