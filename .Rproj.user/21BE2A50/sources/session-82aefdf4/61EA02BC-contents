@@ -1,0 +1,30 @@
+---
+title: "Contact Me"
+image: profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/khushijaiswal-london/
+      target: _blank
+    - icon: envelope
+      text: gmail
+      href: mailto:14khushijais@gmail.com
+      target: _blank
+    - icon: link
+      text: Kaggle
+      href: https://www.kaggle.com/khushijaiswallondon
+      target: _blank
+    - icon: phone
+      text: +44 7884929164
+      href: tel:+447884929164
+      target: _blank
+
+---
+
+- Based in London, UK. 
+- Open to full-time opportunities around June 2025
+- Also available for part-time roles in the meantime
+
+

@@ -1,11 +1,10 @@
 ---
-title: "Pacman Q-Learning Agentt"
+title: "Pacman Q-Learning Agent"
 description: "A Q-learning agent for Pacman using the Bellman equation"
 author: "Khushi Jaiswal"
-date: "2024-01-25"
-categories: [Machine Learning]
+date: "2024-11-16"
+categories: [Software Development]
 image: "image.jpg"
-order: 1
 ---
 
 ::: columns

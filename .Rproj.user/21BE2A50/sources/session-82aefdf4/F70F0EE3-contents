@@ -1,0 +1,51 @@
+---
+title: "LDN Housing Market Analysis"
+description: "Visualising London Housing Price Trends in Tableau"
+author: "Khushi Jaiswal"
+date: "2024-10-20"
+categories: [Data Analysis, Visualisation]
+image: "image.jpg"
+---
+
+## Visualisation 
+::: columns
+:::{.column width="20%"}
+My final published workbook can be found on <a href="https://public.tableau.com/views/Book1-londonHousePrices/LondonHousePricesUncoveringtheImpactofBrexitandCOVID-19?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">here</a> on Tableau Public.
+:::
+
+:::{.column width="10%"}
+:::
+
+:::{.column width="70%"}
+![Some Graphs Obtained (more details below)](files/tableau.png){width="100%"}
+:::
+
+:::
+
+
+# Overview 
+
+This project explores the impact of major events like COVID-19 and Brexit on London's real estate market. By combining data from multiple publicly available sources, I create a comprehensive dataset tailored for visualization and analysis in Tableau. The focus is on uncovering trends and insights related to property sales, energy efficiency, and geographic patterns during these transformative periods.
+
+:::
+
+## Data Sources
+
+1. <a href="https://www.gov.uk/government/collections/price-paid-data" target="_blank">Price Paid Data (1998–Present)</a>:
+This dataset, from HM Land Registry, records property sales in England and Wales submitted for registration. For this analysis, I use only London-specific data.
+
+2. <a href="https://epc.opendatacommunities.org/" target="_blank">Energy Performance Certificate (EPC) Data (2008–2020)</a>:
+This dataset provides details like property size, number of bedrooms, and energy ratings, offering additional insights into the properties.
+
+## Data integration & Cleaning 
+I then filtered the Price Paid Data for London and merged with EPC data to enhance property details. I further enriched the dataset with postcode-level information for geographic analysis. Finally, I cleaned the combined dataset to ensure consistency, remove duplicates, and handle missing values, preparing it for detailed analysis. The cleaned dataset that will be used in the rest of this project can be found <a href="files/london-pp-epc.zip" target="_blank">here</a>.
+
+## Key Insights
+
+London's housing market experienced significant changes after 2015, influenced by Brexit and the COVID-19 pandemic. While Brexit initially slowed price growth, the pandemic spurred a surge in demand, driving prices higher due to changing lifestyles and low-interest rates.
+
+- Regional Price Variations: Zone 1 remains the most expensive area, with SE1 identified as the priciest district, driven by its central location and desirability.
+- Property Trends: Post-2015 saw an increase in flats being built in Zone 1 to address rising demand and limited space, indicating a shift toward high-density housing. 
+- Sustainability and Accessibility: Newly constructed flats in SE1 emphasize energy efficiency, with more properties achieving ‘B’ energy ratings over ‘C.’ These developments also focus on convenience, being located closer to train stations.
+
+

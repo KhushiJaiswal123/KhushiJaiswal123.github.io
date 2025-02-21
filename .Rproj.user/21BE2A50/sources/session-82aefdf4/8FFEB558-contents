@@ -1,0 +1,57 @@
+---
+title: "London Housing Market Prediction"
+description: "Ensemble stacking LinReg, Tree, KNN & Random forest tuned models for prediction"
+author: "Khushi Jaiswal"
+date: "2024-12-08"
+categories: [Machine Learning]
+image: "image.jpg"
+# about:
+#   template: trestles
+---
+
+# House Price Prediction and Investment Strategies
+
+## Project Description
+
+This project focuses on predicting house prices and identifying the most profitable real estate investments using advanced data science techniques. By analyzing historical housing data, training machine learning models, and evaluating their performance, the project offers actionable insights into selecting properties with the highest investment potential.
+
+Datasets used: 
+<a href="extras/training_data_assignment_with_prices.csv" download="training_data_assignment_with_prices.csv">Train Data</a> & 
+<a href="extras/test_data_assignment.csv" download="test_data_assignment.csv">Test Data</a>
+
+
+## Key Insights
+
+- Trained and evaluated multiple machine learning models (Linear Regression, Decision Trees, K-Nearest Neighbors, Random Forests, and Stacking Ensemble) to predict house prices.
+- Achieved the best performance using a Stacking Ensemble model with an RMSE of 178,359 and an R² of 0.86.
+- Identified the top 200 houses with the highest investment potential based on the comparison between predicted prices and asking prices.
+- Applied k-fold cross-validation (k=10) to enhance model robustness and minimize overfitting.
+
+## Technologies Used
+
+- **R**: For data cleaning, model training, and visualization.
+- **Libraries**: `tidyverse`, `caret`, `randomForest`.
+- **Visualization**: Heatmaps, line plots, and variable importance graphs.
+
+## Challenges Overcome
+
+- Standardized input variables across models to address discrepancies in predictions.
+- Optimized computational efficiency by hardcoding best-performing hyperparameters after tuning.
+
+## Future Work
+
+- Incorporate external data such as macroeconomic indicators (e.g., interest rates) to improve predictions.
+- Experiment with newer machine learning techniques, such as XGBoost or neural networks, for enhanced performance.
+
+## Project Report
+[Download Full Report (PDF)](extras/londonHousingReport.pdf)
+
+<iframe src="extras/TechnicalReport.pdf" width="100%" height="600"></iframe>
+
+
+## Project Code
+
+<iframe src="extras/londonHousePricePrediction.html" width="100%" height="600"></iframe>
+
+
+

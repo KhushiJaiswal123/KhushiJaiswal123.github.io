@@ -1,0 +1,35 @@
+---
+title: "Airbnb Property Viewer (Java)"
+description: "hi"
+author: "Khushi Jaiswal"
+date: "2024-11-16"
+categories: [Software Development]
+image: "image.jpg"
+about:
+  template: trestles
+---
+
+This is a post with executable code.
+
+```{r}
+1 + 1
+```
+
+
+# Stop and Search Data
+
+I am testing here 
+Project Description: This project analyzes stop and search data to identify trends and correlations.
+
+## Key Insights
+
+- Insight 1
+- Insight 2
+- This is another insight
+
+## Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+

@@ -1,0 +1,42 @@
+---
+title: "Stop-and-Search Trends"
+description: "Analyzed patterns by age, outcomes, and time using R"
+author: "Khushi Jaiswal"
+date: "2024-11-16"
+categories: [Data Analysis & Visualisation]
+image: "image.jpg"
+execute:
+  warning: false
+  message: false
+---
+
+::: {layout="[[1,1], [1]]"}
+
+## Tools Used
+
+- **dplyr, lubridate, janitor**: Performed data wrangling to clean and transform raw datasets.
+- **ggplot2**: Created bar charts, heatmaps, and line graphs to visualize trends effectively.
+- **lubridate**: Conducted time-based analysis to extract insights by date, weekday, and hour.
+
+
+::: {style="text-align: center"}
+![Some Graphs Obtained (detailed code below)](extra/stopAndSearchGraphs.png){width="80%"}
+:::
+
+# Project Overview
+
+Analyzed Metropolitan Police's stop-and-search data from September 2022 to uncover patterns in searches and outcomes. The project used data wrangling and visualization to explore trends by age group, time of day, and search results.
+<a href="extra/2022-09-metropolitan-stop-and-search.zip" target="_blank">Dataset</a>
+
+## Key Insights
+
+- Age Group Analysis: Individuals aged 18–24 were stopped and searched the most.
+- Outcome Trends: Across all age groups, individuals are usually not investigated further after they have been stopped - however the 18-24 age range is most likely to have further actions taken e.g. arrest, penalty notice. 
+- Temporal Patterns: Searches peaked during late evenings and at the end of the work week, highlighting a time-based pattern in enforcement activity.
+
+:::
+
+# Project Code
+
+<iframe src="extra/stopAndSearchPortfolio.html" width="100%" height="600"></iframe>
+
